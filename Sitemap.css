@@ -1,0 +1,280 @@
+*{
+    font-family:"Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none ;
+    scroll-behavior: smooth;
+    scroll-padding-top:2rem;
+  }
+  
+  body{
+    min-height: 100vh;
+    background-color: #7ca762;
+  }
+  
+  .logo{
+    height: 150px;
+    margin-left: -110px;
+    cursor: pointer;
+  }
+  
+  
+  header li,a{
+  
+    font-size: 16px;
+    text-decoration: none; 
+    
+    
+  }
+  
+  header{
+    display: flex;
+    position:relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+  
+    background-color:#000000 ;
+  }
+  
+  
+  .nav-links{
+    list-style: none;
+    
+  }
+  
+  .nav-links li{
+    display: inline-block;
+    padding: 20px 20px;
+    
+    
+    
+  }
+  .nav-links li a{
+    color: #BCFD4C;
+    opacity: 0.5;
+    transition:all 0.5s ease 0s;
+    
+  
+  }
+  
+  .nav-links li a:hover{
+    opacity: 1;
+    text-shadow: 0 0 3px whitesmoke;
+    letter-spacing: 0.5px;
+  }
+  .sitemap{
+	width:100%;
+	height: 110vh;
+	position: relative;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.sitemap svg{
+width: 100%;
+height: 100%;
+left: -12%;
+top: 50px;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+position: absolute;
+
+display: flex;
+
+
+
+}
+
+
+.svg_container{
+	height:90%;
+	width:100%;
+	
+}	
+
+.rectbutton rect{
+	/* fill:var(--yellow); */
+	
+	transition: fill 0.4s, stroke 0.5s;
+	
+	
+}
+
+.rectbutton:hover rect{
+	fill:var(--yellow);
+	cursor:pointer;
+	
+}
+
+.heading{
+	font-size:2.5em;
+    transform: translateX(600px);
+	width:fit-content;
+	
+}
+
+.buttontext{
+	color:var(--white) !important;
+	font-weight:600;
+	
+}
+
+.buttontext:hover{
+	cursor:pointer;
+	
+}
+svg text{
+	color: #fff !important;
+}
+line{
+	stroke:rgb(255, 255, 255);
+
+}
+
+svg rect {
+	x:10px;
+	y:1px;
+	width: 188px;
+	height: 55px;
+	fill:#b5e713;
+	stroke: var(--yellow) !important;
+	stroke-width: 2px;
+}
+svg .rectbutton text{
+	x:50%;
+	y:50%;
+	font-size: 1.1em;
+	
+	transform: translate(-10px,-10px);
+	fill: var(--white) !important;
+}
+#parent image{
+	width: 90px;
+	height: 88px;
+	x:155px;
+	-webkit-filter: drop-shadow( 3px 3px 6px rgba(248, 13, 13, 0.507));
+	y:188px;
+}
+#parent .about{
+	x:615px;
+}
+#parent .feedback{
+	x:1090px;
+}
+#parent .quiz{
+	x:155px;
+	y:388px;
+}
+#parent .images{
+	x:615px;
+	y:388px;
+}
+#parent .shop{
+	x:1090px;
+	y:388px;
+}
+#parent .logo{
+	width: 190px;
+	height: 108px;
+	x:660px;
+	y:8px;
+}
+
+#parent .events{
+	x:860px;
+	y:540px;
+}
+footer{
+    position:relative;
+    bottom: 50%;
+    width:auto;
+    background: black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+  }
+  
+  footer .socials,footer .menu{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  footer .socials li a{
+    font-size:1.5em;
+    color: #BCFD4C;
+    margin: 0 25px;
+    display: inline-block;
+    transition: 0.4s;
+    opacity: 0.3;
+  }
+  
+  footer .socials li a:hover{
+    transform:translateY(-15px);
+    opacity: 1;
+  }
+  
+  footer .menu li a{
+    font-size:1em;
+    color: #BCFD4C;
+    margin: 0 20px;
+    display: inline-block;
+    transition: 0.4s;
+    text-decoration: none;
+    opacity: 0.5;
+    
+  }
+  
+  footer .menu li a:hover{
+    opacity: 1;
+    
+  }
+  
+  p{
+    color: #fffcfc;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+  
+  }
+  .leftc ul {
+    margin-left: 20px;
+  
+  }
+  
+  footer .designer li a{
+    
+    color: #BCFD4C;
+    position: relative;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 4.5px;
+    float:right;
+  
+  }
+  
+  footer .designer li a:hover{
+    opacity:1;
+    animation:  shake 0.8s  ;
+    text-shadow: 0 0 4px whitesmoke;
+  }
+  footer p{
+    color: rgb(112, 112, 4);
+  }

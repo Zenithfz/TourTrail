@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    font-family:"Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none ;
+    scroll-behavior: smooth;
+    scroll-padding-top:2rem;
+  
+  
+  }
+  
+  body{
+    min-height: 100vh;
+    background-color: #030303; 
+  }
+  
+  
+  
+  
+  .logo{
+    height: 150px;
+    margin-left: -110px;
+  }
+  
+  
+  header li,a{
+  
+    font-size: 16px;
+    text-decoration: none; 
+    
+    
+  }
+  
+  header{
+    display: flex;
+    position:relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+  
+    background-color:#000000 ;
+  }
+  .logo{
+    cursor: pointer;
+  }
+  
+  .nav-links{
+    list-style: none;
+    
+  }
+  
+  .nav-links li{
+    display: inline-block;
+    padding: 20px 20px;
+    
+    
+    
+  }
+  .nav-links li a{
+    color: #BCFD4C;
+    opacity: 0.5;
+    transition:all 0.5s ease 0s;
+    
+  
+  }
+  
+  .nav-links li a:hover{
+    opacity: 1;
+    text-shadow: 0 0 3px whitesmoke;
+    letter-spacing: 0.5px;
+  }
+
+.section_1 {
+    background: linear-gradient(-60deg, #215391, #020404);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    text-shadow: 1px 2px 4px black;
+}
+
+
+form {
+    position: relative;
+  }
+  
+  fieldset {
+    word-wrap: break-word;
+    background-color: #7e91a2;
+    border: none;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    max-width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+
+  label {
+    display: block;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  
+ 
+  .section_1 {
+    padding-bottom: 150px;
+  }
+  
+  
+  .section_1 .normal input  {
+    background-color: #cccccc;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 5px;
+    padding: 10px;
+    border: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+
+  .section_1 .radio input {
+    height:20px;
+    width:20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+  
+    
+    fieldset {
+      max-width: 100%;
+      margin: 0;
+      padding: 0 10px;
+      height: auto;
+    }
+    
+   
+    label {
+      font-size: 16px;
+    }
+  
+   
+    .section_1 .normal input  {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .section_1 .radio input {
+      margin-left: 10px;
+    }
+  }
+  
+
+
+
+footer{
+    position:relative;
+    bottom: 50%;
+    width: 100%;
+    background: black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+  }
+  
+  footer .socials,
+  footer .menu{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  footer .socials li a{
+    font-size:1.5em;
+    color: #BCFD4C;
+    margin: 0 25px;
+    display: inline-block;
+    transition: 0.4s;
+    opacity: 0.3;
+  }
+  
+  footer .socials li a:hover{
+    transform:translateY(-15px);
+    opacity: 1;
+  }
+  
+  footer .menu li a{
+    font-size:1em;
+    color: #BCFD4C;
+    margin: 0 20px;
+    display: inline-block;
+    transition: 0.4s;
+    text-decoration: none;
+    opacity: 0.5;
+    
+  }
+  
+  footer .menu li a:hover{
+    opacity: 1;
+    
+  }
+  
+  p{
+    color: #BCFD4C;
+    font-size: 0.7em;
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  
+  }
+  
+  footer .designer li a{
+    
+    color: #BCFD4C;
+    position: relative;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.5s;
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 4.5px;
+    float:right;
+  
+  }
+  
+  footer .designer li a:hover{
+    opacity:1;
+    animation:  shake 0.8s  ;
+    text-shadow: 0 0 4px whitesmoke;
+  }
+ 
+

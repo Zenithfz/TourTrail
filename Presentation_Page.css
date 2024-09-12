@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+
+}
+
+h1{color:#effaf1;
+   text-decoration:outline;
+   outline-color:E9E0FE;
+   text-decoration:bold;
+   font-family:Arial, Helvetica, sans-serif
+}
+h3{color:#eff5ef;
+  height: 65%;
+  width: 100%;
+  display: flex;
+  outline-color:E9E0FE;
+  text-decoration:bold;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif
+   
+}
+
+.container {
+  height: 57%;
+  width: 101%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+   
+}
+.container2{
+	height: 80%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+    
+}
+.UOW {
+  display: flex;
+  position: fixed;
+  right: 34%;
+  width:225px;
+  top:13%;
+   align-items: center;
+  justify-content: center;
+   
+}
+.IIT {
+  display: flex; 	
+  position: fixed;
+  left: 37%;
+  width:180px;
+  top:11%;
+   align-items: center;
+  justify-content: center;
+  
+}
+.LOGO {
+  display: flex;
+  position: fixed;
+  left: 75%;
+  width: 300px;
+  top:50%;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.background{
+	height:100vh;
+	width:100%;
+	background-image:linear-gradient(145deg,#274c2e,#051007);
+  
+	 
+}
+.table{
+  display: flex;
+  position: absolute;
+  left: 33%;
+  top:59% ;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:18px;
+  margin:auto;
+  border-collapse:collapse;
+  
+  color:#c3d2ca;
+}
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+	width:100%;
+}
+td, th{
+	border: 4px inset rgb(37, 194, 105);
+	padding:8px;
+}
+
+.spinner{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(
+    #28e8458a 10%,
+    #05b42e
+  );
+  -webkit-mask: radial-gradient(
+    farthest-side, #47ec78b4 calc(100% - 10px),
+    #57d75d
+    0
+  );
+  animation: spin 0.8s infinite linear;
+}
+
+@keyframes spin{
+  to{
+    transform: rotate(1turn);
+  }
+}
